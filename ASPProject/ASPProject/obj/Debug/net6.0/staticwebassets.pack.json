@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ASPProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Electroball.png",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Electroball.png"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\animals.jpg",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\animals.jpg"
+    },
+    {
       "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
