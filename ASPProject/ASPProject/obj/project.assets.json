@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {}
+    "C:\\Users\\leoch\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Documents\\GitHub\\ASPProject\\ASPProject\\ASPProject\\ASPProject.csproj",
+      "projectUniqueName": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\ASPProject.csproj",
       "projectName": "ASPProject",
-      "projectPath": "C:\\Users\\david\\Documents\\GitHub\\ASPProject\\ASPProject\\ASPProject\\ASPProject.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Documents\\GitHub\\ASPProject\\ASPProject\\ASPProject\\obj\\",
+      "projectPath": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\ASPProject.csproj",
+      "packagesPath": "C:\\Users\\leoch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\leoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23274.1\\RuntimeIdentifierGraph.json"
       }
     }
   }
