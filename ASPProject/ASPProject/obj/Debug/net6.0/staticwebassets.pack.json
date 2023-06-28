@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\ASPProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Colabvius.png",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Colabvius.png"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Cover.kra",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Cover.kra"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Cover.kra~",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Cover.kra~"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Electroball.png",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Electroball.png"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Our.png",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Our.png"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\animals.jpg",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\animals.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\nature.jpg",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\nature.jpg"
+    },
+    {
       "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
