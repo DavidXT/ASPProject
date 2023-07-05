@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\Ressources\\Images\\Our.png"
     },
     {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Smash.jpg",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Smash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Tekken.jpg",
+      "PackagePath": "staticwebassets\\Ressources\\Images\\Tekken.jpg"
+    },
+    {
       "Id": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\animals.jpg",
       "PackagePath": "staticwebassets\\Ressources\\Images\\animals.jpg"
     },

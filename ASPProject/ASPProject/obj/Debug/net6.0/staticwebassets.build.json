@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vgrF6D4zUPK0bmfQSiklmydCH5P0EfBdqYtzDLivdMc=",
+  "Hash": "MwfKKcmteaGZ8MKcAEzI2cIFoTLkGJ4eqFfZMkHRknw=",
   "Source": "ASPProject",
   "BasePath": "_content/ASPProject",
   "Mode": "Default",
@@ -1188,6 +1188,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Ressources\\Images\\Our.png"
+    },
+    {
+      "Identity": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Smash.jpg",
+      "SourceId": "ASPProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\",
+      "BasePath": "_content/ASPProject",
+      "RelativePath": "Ressources/Images/Smash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Ressources\\Images\\Smash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\Ressources\\Images\\Tekken.jpg",
+      "SourceId": "ASPProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leoch\\Documents\\ToSave\\Cours\\GTech_5\\ASP.NET\\GitRepository\\ASPProject\\ASPProject\\wwwroot\\",
+      "BasePath": "_content/ASPProject",
+      "RelativePath": "Ressources/Images/Tekken.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Ressources\\Images\\Tekken.jpg"
     }
   ]
 }

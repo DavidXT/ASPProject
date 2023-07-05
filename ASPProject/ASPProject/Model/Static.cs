@@ -2,6 +2,6 @@
 {
     public static class StaticVar
     {
-            public static readonly string ServerName = "Data Source=DESKTOP-KSQOGO2";
+            public static readonly string ServerName = "Data Source=LAPTOP-SATHARIE";
     }
 }
