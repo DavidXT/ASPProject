@@ -1,0 +1,21 @@
+﻿@page
+@model DeleteModel
+@{
+    ViewData["Title"] = "Delete Game";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <form method="post">
+        <label>Game Name</label>
+        <select name="GameNameSelected" class="form-control input-lg">
+            <option value="0">Select Game</option>
+            @foreach(var game in Model.GameList)
+            {
+                <option value=@game.GameName>@game.GameName</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-info" value="Save">Delete</button>
+    </form>
+</p>
+

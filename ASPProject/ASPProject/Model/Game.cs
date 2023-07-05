@@ -9,7 +9,7 @@ namespace ASPProject.Model
         public string Url_image;
         public List<Game> GetAllGame()
         {
-            string connectionString = "Data Source=LAPTOP-SATHARIE;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
 
@@ -32,6 +32,38 @@ namespace ASPProject.Model
 
             connection.Close();
             return GameList;
+        }
+
+        public void DeleteGame(string gameName)
+        {
+            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+
+            string sqlQuery = "DELETE FROM Game WHERE name = '" + gameName + "'";
+
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            SqlCommand cmd = new SqlCommand(sqlQuery, connection);
+
+            cmd.ExecuteNonQuery();
+
+            connection.Close();
+        }
+
+        public void UpdateGame(string gameName, string newGameName, string newURL, string newDescription)
+        {
+            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+
+            string sqlQuery = "UPDATE Game SET name='"+newGameName+"', url_image='"+newURL+"', description='"+newDescription+"' WHERE name='"+gameName+"'";
+
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            SqlCommand cmd = new SqlCommand(sqlQuery, connection);
+
+            cmd.ExecuteNonQuery();
+
+            connection.Close();
         }
     }
 }
