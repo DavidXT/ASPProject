@@ -1,0 +1,21 @@
+﻿@page
+@model AddModel
+@{
+    ViewData["Title"] = "Add Game";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <form method="post">
+        <label>Game Name</label>
+        <input name="GameName" type="text" class="form-control input-lg" aria-describedby="GameName" placeholder="Game Name" />
+        
+        <label>Image URL</label>
+        <input name="URL" type="text" class="form-control input-lg" placeholder="URL">
+        
+        <label>Game Description</label>
+        <input name="Description" type="text" class="form-control input-lg" placeholder="Description">
+        
+        <button type="submit" class="btn btn-info" value="Save">Submit</button>
+    </form>
+</p>
