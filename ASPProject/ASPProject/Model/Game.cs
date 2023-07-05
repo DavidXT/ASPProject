@@ -9,7 +9,7 @@ namespace ASPProject.Model
         public string Url_image;
         public List<Game> GetAllGame()
         {
-            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+            string connectionString = StaticVar.ServerName + ";Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
 
@@ -36,7 +36,8 @@ namespace ASPProject.Model
 
         public void DeleteGame(string gameName)
         {
-            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+
+            string connectionString = StaticVar.ServerName + ";Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
 
             string sqlQuery = "DELETE FROM Game WHERE name = '" + gameName + "'";
 
@@ -52,7 +53,8 @@ namespace ASPProject.Model
 
         public void UpdateGame(string gameName, string newGameName, string newURL, string newDescription)
         {
-            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+
+            string connectionString = StaticVar.ServerName + ";Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
 
             string sqlQuery = "UPDATE Game SET name='"+newGameName+"', url_image='"+newURL+"', description='"+newDescription+"' WHERE name='"+gameName+"'";
 

@@ -1,3 +1,4 @@
+using ASPProject.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
@@ -12,7 +13,7 @@ namespace ASPProject.Pages
             string gameURL = Request.Form["URL"];
             string gameDescription = Request.Form["Description"];
 
-            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+            string connectionString = StaticVar.ServerName + ";Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
 
             string sqlQuery = "INSERT INTO Game (name,url_image,description) VALUES ('" + gamename + "','" + gameURL + "','" + gameDescription + "')";
 
