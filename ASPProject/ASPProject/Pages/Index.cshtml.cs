@@ -1,20 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ASPProject.Model;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ASPProject.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
+        public List<Game> GameList = new List<Game>();
         public void OnGet()
         {
-
+            Game game = new Game();
+            GameList = game.GetAllGame();
         }
     }
 }
