@@ -9,7 +9,7 @@ namespace ASPProject.Model
         public string Url_image;
         public List<Game> GetAllGame()
         {
-            string connectionString = "Data Source=DESKTOP-KSQOGO2;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
+            string connectionString = "Data Source=LAPTOP-SATHARIE;Initial Catalog=master;Integrated Security=True;TrustServerCertificate=True;";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
 
