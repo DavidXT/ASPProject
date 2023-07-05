@@ -18,6 +18,23 @@
     <br />
 </div>
 
+    <form method="post">
+        <label>Game Type</label>
+        <select name="GameTypeSelected" class="form-control input-lg" onchange="this.form.submit()">
+            <option value=0>All</option>
+            @foreach(var game in Model.GameTypeList)
+            {
+                @if (Model.CurrentType == @game)
+                {
+                    <option value=@game selected>@game</option>
+                }
+                else
+                {
+                    <option value=@game>@game</option>
+                }
+            }
+        </select>
+    </form>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
@@ -44,7 +61,6 @@
                 @if (i == 0)
                 {
                 <div class="carousel-item active">
-@*                     <img class="d-block w-100" src="/Ressources/Images/Electroball.png" alt="Please Help" /> *@
                 <img class="d-block w-100" src="@Model.GameList[i].Url_image" alt="Please Help" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>

@@ -10,12 +10,21 @@
         <label>Game Name</label>
         <input name="GameName" type="text" class="form-control input-lg" aria-describedby="GameName" placeholder="Game Name" required/>
         
+        <label>Game Type</label>
+        <select name="GameTypeSelected" class="form-control input-lg">
+            @foreach(var game in Model.GameTypeList)
+            {
+                <option value=@game>@game</option>
+            }
+        </select>
+
         <label>Image URL</label>
         <input name="URL" type="text" class="form-control input-lg" placeholder="URL" required>
         
         <label>Game Description</label>
         <input name="Description" type="text" class="form-control input-lg" placeholder="Description" required>
         
+
         <button type="submit" class="btn btn-info" value="Save">Submit</button>
     </form>
 </p>
